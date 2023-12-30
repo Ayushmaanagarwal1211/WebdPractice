@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+}
+.container{
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    width: 95vw;
+    background-color:#fff7;
+    backdrop-filter: blur(100px);
+    box-shadow: 0.4rem;
+    /* border-radius: 20px; */
+   
+
+    margin: 40px;
+  color: black;
+  
+  position: relative;
+  }
+.form{
+    position: absolute;
+    background-color: red;
+   width:1000px;
+    margin-top: 70px;
+    margin-left: 250px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.form h3{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    align-items: center;
+    justify-content: center;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    backdrop-filter: blur(100px);
+    
+}
+.search{
+    outline: none;
+    border: solid 1px red;
+    border-top-left-radius:15px ;
+height: 30px;
+width: 250px;
+    border-bottom-left-radius:15px ;
+    text-align: center;
+}
+
+.button{
+    height: 30px;
+    width: 70px;
+border-top-right-radius: 15px;
+border: solid 1px;
+border-bottom-right-radius: 15px;
+background-image: linear-gradient(to right ,blue,aqua);
+}
+.form input{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 30px;
+   
+ 
+}
+
+
+
+.add{
+    position:absolute;
+    width: 1000px;
+    height: 1000px;
+    
+   
+    
+    
+}
+.add div{
+   
+    height: 40px;
+    cursor: pointer;
+    width: 95vw;
+    align-items: center;
+    font-size: 20px;
+    color:black;
+    background-image: linear-gradient(to right,aqua,aqua);
+  
+  
+}
+.add div span{
+    margin-left: 120px;
+    display: inline-block;
+    width: 500px;
+    margin-top: 5px;
+}
+.add div button{
+   box-sizing: content-box;
+    height: 18px;
+    display: inline-block;
+    width: 40px;
+   
+    
+    margin-left:300px ;
+  
+    cursor: pointer;
+    
+   
+}
+.add div:hover{
+   
+    background-color: bisque;
+    animation-name: animatio ;
+    animation-duration: 90ms;
+    animation-fill-mode: forwards;
+
+}
+.add div button:hover{
+    border:solid gray 1px;
+    border-bottom-left-radius: 100px;
+      border-radius: 100px;
+      
+    
+    }
+
+@keyframes animatio {
+    from{
+        height: 30px;
+        font-size: 20px;
+        color:black ;
+    }
+    to{
+        height: 50px;
+        font-size: 30px;
+        color: black;
+    }
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
