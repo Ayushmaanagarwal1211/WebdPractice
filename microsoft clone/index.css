@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text{
+    font-size: 10px;
+}
+.background{
+    background-image: url("Highlight-M365-Icon-Bounce-Word-Merch_VP5-1920x600\ \(1\).avif");
+    background-size: cover;
+  
+    
+}
+.text1{
+    font-size: 12px;
+    font-weight: 500;
+}
