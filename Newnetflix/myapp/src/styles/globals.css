@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.roundborder{
+  border-top-left-radius: 15px;
+
+  border-bottom-left-radius: 15px;
+}
+.roundborderb{
+  border-top-right-radius: 15px;
+  background-image:linear-gradient(to right,orange,red);
+  border-bottom-right-radius: 15px;
+}
+.roundborder1{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.remove{
+  height: 100%;
+  animation: removeanimate 0.3s ease-in  forwards ;
+}
+
+@keyframes removeanimate {
+  from{
+    left: 0%;
+  }to{
+    left: 100%;
+    z-index: 70;
+  }
+}
+.remove1{
+  height: 100%;
+  animation: removeanimate1 0.3s ease-in  forwards ;
+
+}
+@keyframes removeanimate1 {
+  from{
+    left: 100%;
+  }to{
+    left: 0%;
+  }
+}
+.navborder{
+  border-bottom: solid gray 1px;
+}
+.changedcolor{
+ 
+  content: "";
+  background-image:linear-gradient(to right,orange,red);
+z-index: -1;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 100%;
+}
+
+
+.changecolor{
+  background-image:linear-gradient(to right,orange,red);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  height: 100%;
+}
